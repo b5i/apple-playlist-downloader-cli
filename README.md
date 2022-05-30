@@ -1,1 +1,1 @@
-Cli from https://github.com/b5i/apple-playlist-downloader
+Cli for https://github.com/b5i/apple-playlist-downloader
