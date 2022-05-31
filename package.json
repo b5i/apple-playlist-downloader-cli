@@ -1,0 +1,35 @@
+{
+  "name": "apple-music-downloader-cli",
+  "version": "1.0.0",
+  "description": "Cli for https://github.com/b5i/apple-playlist-downloader",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b5i/apple-playlist-downloader-cli.git"
+  },
+  "keywords": [
+    "apple-music playlist-downloader"
+  ],
+  "author": "Antoine Bollengier, Shubham Rawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b5i/apple-playlist-downloader-cli/issues"
+  },
+  "homepage": "https://github.com/b5i/apple-playlist-downloader-cli#readme",
+  "bin": {
+    "apd": "bin/app.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.3",
+    "html-entities": "^2.1.0",
+    "jssoup": "^0.0.15",
+    "minimist": "^1.2.6",
+    "node-id3": "^0.2.3",
+    "node-itunes-search": "^1.2.2",
+    "progress": "^2.0.3",
+    "request": "^2.88.2"
+  }
+}
