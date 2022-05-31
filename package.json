@@ -1,5 +1,5 @@
 {
-  "name": "apple-music-downloader-cli",
+  "name": "apple-playlist-downloader",
   "version": "1.0.0",
   "description": "Cli for https://github.com/b5i/apple-playlist-downloader",
   "main": "app.js",
