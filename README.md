@@ -1,10 +1,10 @@
 Cli for https://github.com/b5i/apple-playlist-downloader
 
-#Install
+# Install
 
 `npm i -g apple-music-downloader-cli`
 
-#Run
+# Run
 ```
 HELP 
 
@@ -19,7 +19,7 @@ HELP
 Example :
 apd "url"
 ```
-#Example 
+# Example 
 
 `apd "https://music.apple.com/en/playlist/dancexl/pl.6bf4415b83ce4f3789614ac4c3675740?l=en" `
 
