@@ -2,7 +2,7 @@ Cli for https://github.com/b5i/apple-playlist-downloader
 
 # Install
 
-`npm i -g apple-music-downloader-cli`
+`npm i -g apple-playlist-downloader` (could require admin privilleges/sudo on some systems.)
 
 # Run
 ```
