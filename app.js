@@ -177,11 +177,12 @@ const getURL = async (song, singer, album) => {
     return;
   }
   
-  let link = DOWNLOAD_URL + track.id + "/";
-  link = link + track.duration + "/";
-  link = link + track.url + "/";
-  link = link + songName + ".mp3" + "?extra=";
-  link = link + track.extra;
+  //let link = DOWNLOAD_URL + track.id + "/";
+  //link = link + track.duration + "/";
+  //link = link + track.url + "/";
+  //link = link + songName + ".mp3" + "?extra=";
+  //link = link + track.extra;
+  let link = track.url;
   link = encodeURI(link); //to replace unescaped characters from link
   artwork_query = encodeURI(track.tit_art + ' ' + album);
   download(songName, link, song, singer, artwork_query);
